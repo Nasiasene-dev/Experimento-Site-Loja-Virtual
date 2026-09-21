@@ -10,9 +10,7 @@ h1 {
 
 .menu {
     flex-direction: row;
-    padding: 5%;
-    margin: 0%;
-    gap: 3%;
+padding: 1%;
     align-items: center;
     border: solid black;
     background-color: lightgray;
@@ -20,7 +18,11 @@ h1 {
     flex:1;
     text-align: center;
     display:flex;
+    justify-content: space-between;
 }
+
+#logo {width: 500px;
+max-width: 100%;}
 
 .menu button {
     background-color: transparent;
@@ -36,6 +38,16 @@ h1 {
     border:solid black 5px;
     padding: 3px;
 }
+
+#botao-sidebar{border:none; background-color: transparent;
+color: black; 
+position:fixed;
+left:0%;
+top:50%;
+font-size: 20px;
+}
+
+
 
 .categoria{
     border:none;
@@ -53,7 +65,7 @@ padding:3px;}
 
 .Mensagem {
     background-color: whitesmoke;
-    border:solid black 3px;
+    border:none black 3px;
     border-radius:3%;
 }
 
@@ -108,4 +120,85 @@ border:solid black 2px;
 transition:0.3s;
 padding-inline:3px;}
 
+#sobre-nos {border:none;
+background-color:whitesmoke;
+border-radius:5px;
+text-align: justify;
+margin: 3px; padding: 6px;
+}
 
+#sobre-nos p{ font-family: Arial,
+     Helvetica, sans-serif;
+}
+
+footer {background-color:lightgray;
+border-radius:10px; display:flex;
+flex-direction: row; gap:3%;}
+
+#sidebar {width:500px;
+     height:300px;
+    background-color: rgb(205, 205, 205);
+border-top-right-radius: 7%;
+display:flex;
+flex-direction: column;
+
+}
+
+    #conta {background-color:
+         rgba(0, 0, 255, 0.582);
+       padding:2%; 
+    display:flex;
+    font-weight: bold;
+}
+
+        #input-mail {
+            border: none;
+        padding: 5px;
+        width: 90%;
+        margin:1%;
+        border-bottom:solid black 2px;
+        background-color:rgb(205, 205, 205) ;
+}
+
+#email {display:flex;
+flex-direction: column;
+padding:5px;}
+
+#input-senha {border:none; padding:5px;
+    border-bottom: solid black 2px;
+    background-color: rgb(205, 205, 205);
+    width:90%; margin:1%;
+}
+#senha-div {padding:5px;
+display: flex;
+flex-direction: column;}
+
+
+#entrar {border:none;  
+cursor:pointer; margin:1%;
+width: 100px; align-self: center;
+background-color: rgb(205, 205, 205);
+}
+
+#entrar:hover {
+    background-color: blue
+    ; transition:0.3s;
+    border:solid black 2px;
+}
+
+#cadastro {border:none; 
+margin:5px; cursor:pointer;
+width: 100px;
+align-self: center;
+background-color: transparent;
+}
+ #cadastre{text-align: center;}
+
+#cadastro:hover {border:black solid 2px;
+background-color: blue;
+transition:0.3s;
+}
+
+#sidebar-div {display:flex;
+flex-direction: column;
+}

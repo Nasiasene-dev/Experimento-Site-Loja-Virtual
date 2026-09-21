@@ -8,18 +8,20 @@
     <title>
         Nasiasene Web Shop
     </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
     <header>
-        <h1> NASIASENE WEB SHOP </h1>
         <div class="menu">
-        <button> Buscar produtos</button>
-        <button> Carrinho tem que colocar imagem</button>
-        <button> Conta tem que colocar imagem</button>
-    </div>
+            <button id="lupa"> <i class="bi bi-search"></i> Pesquisar</button>
+            <img id="logo" src="Image/Logo.png" alt="logo">
+            <button><i class="bi bi-cart4"></i>
+                Carrinho</button>
+
+        </div>
     </header>
     <nav>
         <button class="categoria" id="suspensao">Suspensão</button>
@@ -27,10 +29,17 @@
         <button class="categoria" id="lanternagem">Lanternagem</button>
         <button class="categoria" id="escape">Escape</button>
     </nav>
+    <button id="botao-sidebar"><i class="bi bi-caret-left-square"></i></button>
     <main>
-        <div class="Mensagem"><h2> Peças automotivas para o seu carro</h2>
-        <p> encontre peças para manutenção e melhora do seu veiculo, com selo de aprovação da Nasiasene Web Shop</p>
-        <button> Destaques </button> </div>
+
+
+        <div class="Mensagem">
+
+            <h2> Peças automotivas para o seu carro</h2>
+            <p> encontre peças para manutenção e melhora do seu veiculo, com selo de aprovação da Nasiasene Web Shop</p>
+            <button> Destaques </button>
+        </div>
+
 
 
         <section class="produtos-principais">
@@ -67,6 +76,30 @@
                 dos seus itens com total atenção da Nasiasene Web Shop </p>
         </div>
     </main>
+    <aside id="sidebar">
+        <div class="cabecalho-side">
+            <p id="conta">
+                <i class="bi bi-person-circle">
+
+                </i>Minha conta
+            </p>
+        </div>
+        <div id="sidebar-div">
+            <div id="email" type="email">
+                <label id="mail">E-mail:</label>
+                <input id="input-mail">
+            </div>
+            <div id="senha-div">
+                <label id="senha" type="password"> 
+                    Senha:</label><input id="input-senha">
+            </div>
+            <button id="entrar">Entrar</button>
+            <p id="cadastre">Não possui uma conta? Faça seu cadastro.</p>
+            <button id="cadastro">Cadastrar</button>
+        </div>
+
+
+    </aside>
     <footer>
         <p>@NasiaseneWebShop.</p>
         <p> telefone</p>
