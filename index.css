@@ -242,3 +242,19 @@ transition:0.3s;
 #sidebar-div {display:flex;
 flex-direction: column;
 }
+
+#destaque 
+
+
+@media (max-width: 600px){
+
+    #logo{width:200px;}
+
+.produtos-principais{
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:5%;
+}
+
+.produto {flex: 0 0 40%;}
+}
